@@ -1,7 +1,5 @@
 import unittest
 from math_quiz import function_A, function_B, function_C
-
-
 class TestMathQuizFunctions(unittest.TestCase):
 
     # Test for function_A
@@ -27,7 +25,5 @@ class TestMathQuizFunctions(unittest.TestCase):
 
         result = function_C(0)
         self.assertEqual(result, 0)  # Edge case: check if the square of 0 is correct
-
-
 if __name__ == '__main__':
     unittest.main()
